@@ -78,7 +78,7 @@ Optical flow library that includes GMA
 
 ### GMA (Global Motion Aggregation)
 
-High-quality optical flow model
+is a transformer-based optical flow model that robustly handles occlusions by modeling long-range pixel dependencies and aggregating global motion cues, producing state-of-the-art flow estimates even in heavily occluded regions.
 [https://github.com/zacjiang/GMA](https://github.com/zacjiang/GMA)
 
 Please cite and credit the original authors when using their work.
