@@ -132,12 +132,13 @@ A strong baseline for future Indian Sign Language translation research.
 If you use the curated dataset or related resources, please cite:
 
 ```bibtex
-@inproceedings{Chowdhury2025SpaMoOF,
-  title={Enhancing Indian Sign Language Translation via Motion-Aware Modeling},
-  author={Anal Roy Chowdhury and Debarshi Kumar Sanyal},
-  booktitle={Workshop on Sign Language Processing (WSLP), IJCNLP–AACL},
-  year={2025},
-  address={IIT Bombay, Mumbai, India}
+@inproceedings{
+anonymous2025enhancing,
+title={Enhancing Indian Sign Language Translation via Motion-Aware Modeling},
+author={Anonymous},
+booktitle={Workshop on Sign Language Processing},
+year={2025},
+url={https://openreview.net/forum?id=Q4n72lsMLe}
 }
 ```
 
