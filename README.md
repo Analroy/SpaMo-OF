@@ -41,9 +41,41 @@ We release a **clean, balanced, noise-filtered 10k sample subset** of the iSign 
 * Average length: **~200 frames**
 * More stable and reproducible for SLT modeling
 
-### 📥 Download
+Here is the updated **Download section in clean Markdown**, ready to paste into your GitHub README.
+It reflects:
+✅ your **uploaded train/val/test CSVs in the `Data/` folder**
+✅ the **source iSign dataset link**
+✅ a clear explanation of how to use the curated subset.
 
-> **[Download iSign-10k Subset](#)**
+---
+
+## 📥 Download
+
+This repository includes the curated **iSign-10k subset** used in our experiments.
+You can directly access the train, validation, and test splits from the following files:
+
+```
+Data/train.csv  
+Data/val.csv  
+Data/test.csv
+```
+
+Each CSV file contains:
+
+* video file names
+* corresponding English translations
+* cleaned and balanced samples (5–15 words)
+* metadata used during our experiments
+
+### 🔗 Source Dataset (iSign)
+
+The curated subset is extracted from the original **iSign** dataset:
+
+👉 **iSign on HuggingFace:**
+[https://huggingface.co/datasets/Exploration-Lab/iSign](https://huggingface.co/datasets/Exploration-Lab/iSign)
+
+To fully reproduce the dataset, download the videos from the source iSign repository and map them using our CSV splits.
+
 
 ---
 
