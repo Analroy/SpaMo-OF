@@ -85,10 +85,7 @@ The complete **SpaMo-OF** pipeline will be released soon, including:
 
 * Multi-scale spatial feature extraction
 * GMA-based optical flow computation
-* VideoMAE motion feature extraction
-* Cross-modal alignment
-* LoRA-based multilingual LLM fine-tuning
-* Evaluation scripts and utilities
+* Integration of optical flow features with SpaMo
 
 Please ⭐ star the repository to get updates.
 
