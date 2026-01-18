@@ -132,13 +132,26 @@ A strong baseline for future Indian Sign Language translation research.
 If you use the curated dataset or related resources, please cite:
 
 ```bibtex
-@inproceedings{
-anonymous2025enhancing,
-title={Enhancing Indian Sign Language Translation via Motion-Aware Modeling},
-author={Anonymous},
-booktitle={Workshop on Sign Language Processing},
-year={2025},
-url={https://openreview.net/forum?id=Q4n72lsMLe}
+@inproceedings{chowdhury-sanyal-2025-enhancing,
+    title = "Enhancing {I}ndian {S}ign {L}anguage Translation via Motion-Aware Modeling",
+    author = "Chowdhury, Anal Roy  and
+      Sanyal, Debarshi Kumar",
+    editor = "Hasanuzzaman, Mohammed  and
+      Quiroga, Facundo Manuel  and
+      Modi, Ashutosh  and
+      Kamila, Sabyasachi  and
+      Artiaga, Keren  and
+      Joshi, Abhinav  and
+      Singh, Sanjeet",
+    booktitle = "Proceedings of the Workshop on Sign Language Processing (WSLP)",
+    month = dec,
+    year = "2025",
+    address = "IIT Bombay, Mumbai, India (Co-located with IJCNLP{--}AACL 2025)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.wslp-main.7/",
+    pages = "39--46",
+    ISBN = "979-8-89176-304-3",
+    abstract = "Sign language translation (SLT) has witnessed rapid progress in the deep learning community across several sign languages, including German, American, British, and Italian. However, Indian Sign Language (ISL) remains relatively underexplored. Motivated by recent efforts to develop large-scale ISL resources, we investigate how existing SLT models perform on ISL data. Specifically, we evaluate three approaches: (i) training a transformer-based model, (ii) leveraging visual-language pretraining, and (iii) tuning a language model with pre-trained visual and motion representations. Unlike existing methods that primarily use raw video frames, we augment the model with optical flow maps to explicitly capture motion primitives, combined with a multi-scale feature extraction method for encoding spatial features (SpaMo-OF). Our approach achieves promising results, obtaining a BLEU-4 score of 8.58 on the iSign test set, establishing a strong baseline for future ISL translation research."
 }
 ```
 
